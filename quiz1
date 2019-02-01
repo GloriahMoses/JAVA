@@ -11,6 +11,6 @@ class Main {
     int number2 = input.nextInt();
 
     int product = number1 * number2;
-    System.out.println("Product is: " + product);
+    System.out.println(number1 + " x " +number2 + " = " + product);
   }
 }
