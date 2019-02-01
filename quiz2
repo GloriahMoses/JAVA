@@ -11,18 +11,18 @@ class Main {
     int number2 = input.nextInt();
 
     int sum = number1 + number2;
-    System.out.println("sum is: " + sum);
+    System.out.println(number1 + "+" +number2 + "=" + sum);
 
-    int subtract = number1 + number2;
-    System.out.println("Difference is: " + subtract);
+    int subtract = number1 - number2;
+    System.out.println(number1 + "-" +number2 + "=" + subtract);
 
     int product = number1 * number2;
-    System.out.println("Product is: " + product);
+    System.out.println(number1 + "x" +number2 + "=" + product);
 
     int divide = number1 / number2;
-    System.out.println("Division: " + divide);
+    System.out.println(number1 + "/" +number2 + "=" + divide);
 
     int mod = number1 % number2;
-    System.out.println("Reminder: " + mod);
+    System.out.println(number1 + " mod " +number2 + "=" + mod);
   }
 }
